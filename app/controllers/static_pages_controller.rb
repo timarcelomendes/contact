@@ -1,7 +1,12 @@
 class StaticPagesController < ApplicationController
 
     def index
-        @nome = "Marcelo Mendes"
+        
+    if  @nome = "Lucas"
+        
+    else @nome = "Samara"
+        
+    end
     end
 
 end
